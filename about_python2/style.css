@@ -1,0 +1,240 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+
+section{
+	width: 970px;
+	margin: 0 auto;
+	background-color: #205173;
+	color: white;
+}
+
+
+header{
+	padding: 15px;
+}
+
+	header > img{
+		width: 375px;
+	}
+
+	header > div > p > a{
+		color: #cfae2c;
+	}
+
+	header > div > p > span{
+		color: black;
+	}
+
+	header > img + div{
+		display: inline-block;
+		margin-left: 240px;
+		text-align: center;
+		vertical-align: top;
+	}
+
+	header > div > p + div{
+		width: 300px;
+		height: 50px;
+		border-radius: 10px;
+		background-color: #444;
+		padding: 15px 7px 4px 10px;
+		margin-top: 5px;
+		box-shadow: 2px 2px 2px black;
+	}
+
+	header > div > p + div > input{
+		padding: 10px;
+		text-align: center;
+		border: 2px solid silver;
+		box-shadow: 1px 1px 1px black;
+	}
+
+	header > div > p + div > button{
+		color: white;
+		text-align: center;
+		margin-left: 5px;
+		padding: 6px 8px;
+		border-radius: 5px;
+		background-color: #205173;
+		box-shadow: 1px 1px 1px black;
+	}
+
+
+
+	header > nav > ul{
+		width: 800px;
+		list-style-type: none;
+		background-color: #417ea9;
+		border-radius: 5px;
+		font-size: 20px;
+		display: flex;
+		justify-content: space-around;
+		padding: 10px 20px;
+		margin: 20px auto;
+		box-shadow: 2px 2px 2px black;
+
+	}
+
+	header > nav li > a{
+		text-decoration: none;
+		color: white;
+	}
+
+
+/* Styling the aside content */
+aside{
+	display: inline-block;
+
+}
+	aside > ul{
+		text-align: center;
+		list-style-type: none;
+		margin-left: 100px;
+	}
+
+		aside li{
+			margin: 12px;
+		}
+
+		aside li > a{
+			color: white;
+		}
+
+		aside li > span{
+			color: #fcd154;
+			font-size: 9px;
+			font-weight: bold;
+			vertical-align: middle;
+			margin: 3px;
+		}
+
+
+/* Styling main content */
+header > aside + main{
+	display: inline-block;
+	width: 600px;
+	text-align: center;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+	header > aside + main > p{
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+
+	header > aside + main > h3{
+		font-weight: normal;
+		font-style: italic;
+		color: #fcd154;
+		margin: 5px; 
+	}
+
+	header > aside + main > h4{
+		font-weight: normal;
+		margin: 15px;
+	}
+
+
+/* Styling the middle content */
+header + main{
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	padding: 15px 40px;
+}
+
+	header + main > article{
+		border-top: 4px solid #70a8d1;
+		width: 400px;
+		color: black;
+		text-align: center;
+	}
+		header + main > article > h4{
+			margin-top: 10px;
+		}
+
+		header + main > article > p{
+			font-size: 14px;
+			width: 300px;
+			margin: 0px auto 5px auto;
+		}
+
+			header + main > article > p > span{
+				color: #8dbada;
+				font-size: 14px;
+			}
+
+		header + main > article > ul{
+			list-style-type: square;
+			margin-left: 110px;
+			width: 400px;
+		}
+
+		header + main > article li > a{
+			margin-left: -125px;
+			text-decoration: none;
+			color: #8dbada;
+			font-size: 14px;
+		}
+
+
+/* Styling footer */
+footer{
+	text-align: center;
+	color: #8dbada;
+	background-color: linear-gradient(#22567a, #2c72a3);
+	padding-top: 10px; 
+}
+
+	footer > ul{
+		list-style-type: none;
+		margin: 40px auto 20px auto;
+	}
+
+		footer > ul > li{
+			display: inline;
+			margin: 20px;
+		}
+
+		footer > ul > p{
+			font-size: 10px;
+			margin-top: 10px;
+			height: 20px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

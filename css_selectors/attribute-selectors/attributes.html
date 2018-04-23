@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attribute Selectors</title>
+	<style type="text/css">
+		
+		/* attr and value */
+		p[lang]{
+			color: purple;
+		}
+
+		button[type="reset"]{
+			background-color: #4caf50;
+			color: white;
+		}
+
+		input[value~="you"]{
+			color: hotpink;
+			padding: 5px;
+			margin-left: 5px;
+		}
+
+		a[href^="http"]{
+			color: magenta;
+		}
+
+		a[href$="com"]{
+			color: red;
+		}
+
+		h2[title*="hird"]{
+			color: aqua;
+		}
+
+		p[lang|="fr"]{
+			color: orange;
+		}
+
+	</style>
+</head>
+<body>
+	<h3>Attribute Selectors</h3>
+	<p>Some paragraph content here...</p>
+	<p lang="en">More paragraph content...</p>
+	<p>Additional Content...</p>
+
+	<button type="button">Button 1</button>
+	<button type="reset">Button 2</button>
+	<button type="submit">Button 3</button>
+	<br><br>
+
+	<input value="welcome home">
+	<input value="See you tomorrow">
+
+	<br><br>
+
+	<a href="http://www.angular.io">Visit Angular documentation</a> <br>
+	<a href="source.html">Source of Info</a> <br>
+	<a href="http://www.google.com">Search the web</a>
+	<br>
+	<a href="www.yahoo.com">Visit yahoo</a>
+
+	<h2 title="first heading">Heading 1</h2>
+	<h2 title="second heading">Heading 2</h2>
+	<h2 title="third heading">Heading 3</h2>
+
+	<p lang="fr-CA">My First Paragraph content ...</p>
+	<p lang="en-US">Another Paragraph content ...</p>
+
+
+</body>
+</html>

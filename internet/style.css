@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+section{
+	width: 950px;
+	margin: auto;
+	padding: 15px;
+}
+
+
+/* Styling the header section */
+header{
+	margin-top: 20px;
+}
+	header > img{
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		margin: -25px;
+	}
+
+	header > h1{
+		display: inline-block;
+		margin: 0px 25px;
+		font-size: 2em;
+		font-weight: lighter;
+	}
+
+		header > h1 > span{
+			color: #1a669a;
+		}
+
+	header > h2{
+		background: linear-gradient(#2a6e9e, #4880a7, #2a6e9e);
+		color: white;
+		padding: 10px;
+		font-weight: lighter;
+	}
+
+/* Styling the aside section */
+aside{
+	width: 25%;
+	margin-right: 4%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	/*background: linear-gradient(#e7e7e7, #fafafa);*/
+}
+
+	aside > div:first-of-type{
+		padding-bottom: 10px;
+		border-bottom: 1px solid silver;
+		margin-bottom: 10px;
+	}
+
+		aside > div:first-of-type > button{
+			margin-left: 34%;
+			background-color: #00c1dc;
+			border-radius: 5px;
+			border: none;
+			padding: 10px;
+			color: white;
+			font-size: 14px;
+			margin-top: 25px;
+			width: 200px;
+			margin-left: 0px;
+			box-shadow: 1px 1px 1px black;
+		}
+
+		aside > div:first-of-type > button:nth-child(3){
+			background: linear-gradient(#5c97be, #206a9d);
+		}
+
+		aside > div:first-of-type > button:nth-child(4){
+			background: linear-gradient(#eda961, #f3781f);
+			margin-top: 4px;
+		}
+
+		aside > div:first-of-type > h5{
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+			aside > div:first-of-type > h5 > span{
+				color: #de1e25;
+			}
+
+		aside > div:first-of-type > h6 > span{
+			color: #1a669a;
+		}
+
+		aside > div:last-of-type{
+			background-image: url(./images/ad_background.png);
+			height: 375px;
+		}
+
+		aside > div:last-of-type > h3{
+			color: white;
+			font-weight: normal;
+			padding: 5px;
+			text-align: center;
+		}
+
+		aside > div:last-of-type > img{
+			width: 50%;
+			margin-left: 25%;
+			margin-top: 15px;
+		}
+
+		aside > div:last-of-type > button:only-of-type{
+			margin-left: 28%;
+			background: linear-gradient(#6bd0dd, #00c2dc);
+			border-radius: 5px;
+			border: none;
+			padding: 9px;
+			color: white;
+			margin-top: 25px;
+			box-shadow: 2px 2px 2px black; 
+		}
+			aside > div:last-of-type > button:only-of-type > span{
+				font-size: 10px;
+				vertical-align: middle;
+			}
+
+
+/* Styling the main section */
+main{
+	margin-left: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+	main > nav{
+		border-bottom: 1px solid silver;
+		width: 627px;
+		padding: 10px;
+		position: relative;
+	}
+		main > nav > img:first-child{
+			width: 17px;
+			height: 17px;
+			padding-bottom: 50px;
+			display: inline-block;
+		}
+
+		main > nav > a{
+			text-decoration: none;
+			color: #00c1dc;
+			vertical-align: top;
+		}
+
+		main > nav > div:nth-child(3){
+			display: inline-block;
+			position: absolute;
+			margin-top: 10px;
+			font-size: 12px;
+			top:0px;
+			right: 0px;
+		}
+			main > nav > div:nth-child(3) > img{
+				width: 50px;
+				height: 50px;
+				display: inline-block;
+			}
+			main > nav > div:nth-child(3) > div:last-of-type{
+				display: inline-block;
+			}
+				main > nav > div:nth-child(3) > div:last-of-type > h2{
+					margin: 0px;
+					color: #00c1dc;
+					font-size: 18px;
+				}
+
+
+	/* Styling main article */
+	main > article{
+		width: 627px;
+		margin-bottom: 25px;
+	}
+		main > article > div > h3{
+			color: #1a669a;
+			margin: 7px 0px;
+		}
+
+		main > article > div:first-of-type > img{
+			width: 345px;
+			height: 110px;
+			margin: 5px 0px 5px 160px;
+			text-align: center;
+		}
+
+		main > article > div:first-of-type > ul{
+			margin-left: 35px;
+		}
+
+		main > article > div:first-of-type > ul > li > a, p > span{
+			color: #00c1dc;
+			text-decoration: none;
+		}
+
+		main > article > div:last-of-type > ol{
+			margin-left: 35px;
+		}
+
+	/* styling footer section */
+	main > footer{
+		width: 627px;
+		padding: 20px;
+		border: 4px solid #0087d9;
+		border-bottom: none;
+	}
+	main > footer > img{
+		width: 125px;
+		height: 125px;
+		margin-right: 15px;
+		display: inline-block;
+	}
+
+	main > footer > div{
+		display: inline-block;
+		vertical-align: top;
+		width: 75%;
+	}
+		main > footer > div >h3{
+			color: #0087d9;
+			margin-bottom: 5px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

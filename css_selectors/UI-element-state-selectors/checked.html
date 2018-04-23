@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checked UI Element Selector</title>
+	<style type="text/css">
+		
+		/*input:checked{
+			cursor: crosshair;
+		};*/
+
+		/* Toggle the state of an element */
+
+		#p1{
+			display: none;
+		}
+
+		#cb1:checked ~ #p1{
+			display: block;
+		}
+
+	</style>
+</head>
+<body>
+	<h3>UI Element Selector</h3>
+	<!-- <input type="checkbox" name="cb1">
+	<input type="checkbox" name="cb2" checked="checked"> -->
+
+	<label for="cb1">Agree to terms</label>
+	<input type="checkbox" id="cb1" name="cb1">
+	<p id="p1">Thanks for agreeing!</p>
+</body>
+</html>

@@ -1,0 +1,172 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: courier;
+	font-size: 16px;
+}
+
+section{
+	width: 960px;
+	background-color: #dddfd5;
+	padding: 10px;
+	margin: 0px auto;
+	color: white;
+}
+
+/* Styling the header section */
+header{
+	height: 100px;
+	background-color: #26b1ac;
+}
+	header > *{
+		display: inline-block;
+	}
+
+	header > img{
+		width: 75px;
+		margin: 12px 0px 0px 20px;
+	}
+
+	header > h1{
+		color: black;
+	}
+
+	header > h1, h4{
+		vertical-align: bottom;
+		margin-bottom: 30px;
+	}
+
+	header > h4:first-of-type{
+		margin-left: 50px;
+	}
+
+		header > h4 > *{
+			color: white;
+			font-size: 14px;
+		}
+
+
+
+/* Styling the main section */
+main{
+	padding: 10px;
+	background-color: #fae590;
+}
+	main h2, h3{
+		margin-bottom: 10px;
+	}
+
+	main p{
+		margin: 0 0 10px 10px;
+	}
+
+	main > aside{
+		width: 250px;
+		height: 570px;
+		padding: 10px;
+		display: inline-block;
+		background-color: #1c4146;
+	}
+
+	main > article{
+		width: 650px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+		main div{
+			background-color: #1c4146;
+			margin-left: 10px;
+		}
+
+		main > article p > span{
+			color: #49c8ba;
+		}
+
+		main .top{
+			width: 160px;
+			height: 175px;
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 0 20px 20px;
+			padding: 10px;
+		}
+
+		main .mid{
+			width: 265px;
+			display: inline-block;
+			margin: 0 0 20px 20px;
+			padding: 10px; 
+		}
+
+		main .bottom{
+			width: 580px;
+			height: 165px;
+			padding: 10px;
+			margin: 0 0 20px 20px;
+		}
+
+
+
+/* Styling the footer */
+footer{
+	width: 94%;
+	height: 40px;
+	margin: 5px;
+	background-color: #3cafab;
+	padding: 35px 25px 25px 25px;
+}
+
+	footer > h2{
+		text-align: center;
+		color: #1c4146;
+	}
+
+	footer > h2, a{
+		font-size: 14px;
+		font-weight: lighter;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

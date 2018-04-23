@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not Selector</title>
+	<style type="text/css">
+		
+		h3, h4:not(.heading){
+			color: magenta;
+		}
+
+		.class1:not(h2){
+			color: purple;
+		}
+
+	</style>
+</head>
+<body>
+	<h3>Not Pseudo Selector</h3>
+	<h4>Heading Content</h4>
+	<h4 class="heading">Another heading Content</h4>
+	<h4>More heading Content</h4>
+
+	<h1 class="class1">Some content here</h1>
+	<h2 class="class1">Some Other Content here</h2>
+	<h3 class="class1">Some more content here too</h3>
+</body>
+</html>

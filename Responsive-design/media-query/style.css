@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	font-family: "Lucida Sans", sans-serif;
+}
+
+
+.container{
+	background-color: lightgrey;
+}
+
+.row > button{
+	background-color: #9933cc;
+	width: 300px;
+	color: white;
+	font-size: 18px;
+}
+
+
+.col{
+	/* Set a universal styling for all colums regardless of screen sizes */
+	display: inline-block;
+	vertical-align: top;
+	padding: 15px;
+}
+	.col > p > *{
+		color: #9933cc;
+		font-style: italic;
+	}
+
+.row{
+	/* Set any styling that you would like for each row */
+	border: 2px solid blue;
+	padding: 15px;
+}
+
+#main{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+/* Detect screen size */
+@media only screen and (max-width: 480px){
+	.sm-4{
+		width: 100%;
+	}
+	.sm-0{
+		/* hide optional content */
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 481px){
+	.med-2{
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1024){
+	.lg-1{
+		width: 25%;
+	}
+
+	.lg-3{
+		width: 75%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Focus User Action Selector</title>
+	<style type="text/css">
+		
+	/*	input:focus{
+			background-color: lightblue;
+		}*/
+
+		#email_status{
+			display: none;
+		}
+
+		#email:focus ~ #email_status{
+			display: inline;
+		}
+
+	</style>
+</head>
+<body>
+	<h3>Focus User Action Selector!</h3>
+<!-- 	<input name="email">
+	<input name="password"> -->
+
+	<input type="email" name="email" id="email" placeholder="Email Address">
+	<span id="email_status">Do not enter a fake email address!</span>
+</body>
+</html>
